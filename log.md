@@ -14,3 +14,20 @@
 - Future relevant project information should be integrated with provenance, index/source-registry maintenance, conflict tracking, and append-only log entries.
 - Sandbox files and chat memory are not evidence of repository state.
 - Repository is public; do not commit secrets or confidential raw material.
+
+## [2026-09-04] ingest | Premium T-VER Mangrove Group 1 project package
+- Ingested the user-provided Google Drive package for `Greenhouse Gas Reduction with Mangrove Reforestation in Thailand (Group 1)` into the durable wiki.
+- Added `projects/group-1-mangrove-reforestation.md` as the canonical project page.
+- Populated `data/project-profile.yaml` from the registered/validated project package instead of leaving it as a blank template.
+- Registered project status: Premium T-VER, T-VER-P-METH-13-02 v01, 40 plots in 7 provinces, crediting period 2023-10-01 to 2038-09-30.
+- Locked the accounting boundary at 1,195.64 rai; preserved 1,472.13 rai only as allocated area. Validation boundary findings MM 01/MM 02 were retained as QA history.
+- Recorded project strata: former shrimp ponds 12 plots/230.92 rai; cleared/planting-ready 24/449.25; accreting mudflat 4/515.47.
+- Recorded registered ex-ante estimate: tree component 168,585.24 tCO2e over 15 years; workbook SOC component 1,139.8434667 tCO2e; total 169,725.0834667 tCO2e; reported average 11,315 tCO2e/year.
+- Explicitly classified the 11,315 tCO2e/year figure as `PROJECT_ESTIMATE`, not issued/certified credits; no actual Monitoring Report, Verification Report or TGO issuance evidence has been ingested.
+- Recorded PDD MRV design: stratified random sampling, satellite support for stratification/canopy, tree aboveground+belowground pools, SOC included, optional sapling/deadwood excluded, uncertainty deduction requirement, and separate monitoring cadences.
+- Recorded SD/Safeguards cadences: SDG 10 annual, SDG 13 growth every 5 years, SDG 14 annual satellite/ecological monitoring; kept separate from the PDD tree-carbon MRV cadence of at least every 3 years.
+- Added source notes for PDD, calculation workbook, Validation Report, SD/Safeguards report, TGO certificate, and shapefile package manifest.
+- Added immutable external-source manifest `raw/project-g1-drive-source-manifest-2026-09-04.md` with observed Drive file IDs/metadata.
+- Added a calculator hard-stop warning `CONFLICT_REQUIRES_RECONCILIATION` for the SOC workbook implementation versus methodology/PDD wording; preserved the validated reported ex-ante value without inventing a replacement formula.
+- Updated `sources/source-registry.md`, `sources/known-gaps.md`, and `index.md`.
+- Shapefile ZIP binary contents/hash/CRS/feature schema were not independently inspected in this ingest; geometry equivalence must be validated before claiming a specific GIS copy is authoritative.
