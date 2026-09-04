@@ -43,6 +43,7 @@
 ## Sources
 - [[sources/source-registry]]
 - [[sources/known-gaps]]
+- `raw/project-g1-drive-source-manifest-2026-09-04.md` — immutable external-source provenance snapshot
 - [[sources/project-g1-pdd-2024-04-30]]
 - [[sources/project-g1-calculation-workbook-2024-04-30]]
 - [[sources/project-g1-validation-2024-05-01]]
