@@ -8,11 +8,13 @@
 
 ## Projects
 - [[projects/group-1-mangrove-reforestation]] — Premium T-VER mangrove reforestation Group 1; registered ex-ante profile, boundary, MRV, sources and gaps
+- [[projects/standard-tver-group-2/README]] — Registered Standard T-VER Group 2; project-specific methodology lock, baseline, sequestration, POM, allometry, monitoring, spatial evidence and validation/registration
 
 ## Standard / Methodology
 - [[standards/current-standard]] — standard ที่ตั้งเป็น default และ version watch
 - [[standards/other-standards]] — มาตรฐานอื่น ห้ามปะปน
 - [[methodologies/T-VER-P-METH-13-02]] — ระเบียบวิธีปลูกป่าชายเลน
+- [[methodologies/T-VER-S-METH-13-03]] — Standard T-VER large-scale sustainable forestation; Group 2 historical project lock
 - [[methodologies/eligibility-checklist]] — checklist ก่อนคำนวณ
 
 ## Calculation
@@ -50,6 +52,8 @@
 - [[sources/project-g1-sdg-safeguards-2024-04-23]]
 - [[sources/project-g1-certificate-2024-06-21]]
 - [[sources/project-g1-shapefile-manifest-2024-06-11]]
+- `raw/project-g2-drive-source-manifest-2026-09-04.md` — immutable external-source provenance snapshot for Standard T-VER Group 2
+- [[sources/stc-standard-tver-group2-drive]] — Group 2 registration/PDD/calculation/validation/GIS source bundle
 
 ## Templates
 - [[templates/project-profile]]

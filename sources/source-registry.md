@@ -106,6 +106,47 @@ Checked: **2026-09-04**
 - Limitation: raw ZIP bytes/hash/CRS/feature schema not independently validated in this GitHub ingest
 - URL: https://drive.google.com/file/d/1bt6v-8fvTcf2vbX7FV1dSI5WgmnNbwLr/view
 
+## Project primary evidence — Standard T-VER Group 2
+
+### STC-G2-DRIVE-MANIFEST-2026-09-04
+- Tier: immutable external-source provenance manifest
+- Raw manifest: `raw/project-g2-drive-source-manifest-2026-09-04.md`
+- Folder ID: `1naQZbzf1ZsbmIoI62huW04946eICuglE`
+- Source note: [[stc-standard-tver-group2-drive]]
+
+### STC-G2-REG-CERT
+- Type: TGO registration certificate
+- Drive ID: `16BtGtmh5JTS7lrfD5PdLSTX3H6Im1-KZ`
+- Date: 2024-08-28
+- Registered expected quantity: 84,652 tCO2eq/year
+
+### STC-G2-VALIDATION
+- Type: Validation Report
+- VVB: Bureau Veritas Certification (Thailand) Ltd.
+- Drive ID: `1hbG2IFQ6XvFyK8CAGA7H30TJLwNlaGa0`
+- Document date: 2024-06-27
+- Validated quantity: 846,521.70 tCO2eq / 10 years; 84,652.17 tCO2eq/year
+
+### STC-G2-PDD-DRIVE
+- Type: PDD copy in Drive
+- PDF Drive ID: `1Al_NixiMve4fKB_r_PT0Zl-iDGbekC03`
+- DOCX Drive ID: `1_eJM7_V8Ve_2pEG-WON6z9R4aPBbj9yu`
+- Version identity vs the PDD cited by the Validation Report: `UNCONFIRMED`
+
+### STC-G2-CALC-XLSX
+- Type: project calculation workbook
+- Drive ID: `1D4fdK_rmTOQRGvZgyzI2_V-KmdYg-3fe`
+- Filename: `Cal_MOC2-Standard-V02-no_soil.xlsx`
+
+### STC-G2-SAMPLE-PLOT-CSV
+- Type: sample plot coordinate table
+- Drive ID: `1S8AcUYGFNGMSP8-_atIsEvCAf0xTRiru`
+- CRS status: `UNCONFIRMED_FROM_CSV`
+
+### STC-G2-SHP
+- Type: project/sample plot GIS archive
+- Drive ID: `1hfiaB0yPDNCvekB3PiQ1_BIieUmhhY7p`
+
 ## International reference
 
 ### VERRA-VM0033-V2.1

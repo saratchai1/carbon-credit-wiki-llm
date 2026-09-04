@@ -1,0 +1,88 @@
+project_id: STC-STANDARD-TVER-GROUP-2
+project_name_th: "โครงการฟื้นฟูป่าชายเลนเพื่อระบบนิเวศที่ยั่งยืนของประเทศไทย (กลุ่ม 2)"
+project_name_en: "mangrove reforestation for sustainable environment in Thailand (group 2)"
+
+standard:
+  name: Standard T-VER
+  authority: TGO
+  methodology_code: T-VER-S-METH-13-03
+  methodology_version: "01"
+  calculation_tool_code: T-VER-S-TOOL-01-01
+  calculation_tool_version: "01"
+  project_methodology_locked: true
+  current_validity_rechecked_2026: false
+
+parties:
+  owner: "กรมทรัพยากรทางทะเลและชายฝั่ง"
+  developer: "กรมทรัพยากรทางทะเลและชายฝั่ง"
+  co_developer: "บริษัท สยาม ทีซี เทคโนโลยี จำกัด"
+
+boundary:
+  project_plots: 50
+  project_area_rai: 9005.55
+  provinces:
+    - Ranong
+    - Krabi
+    - Phang Nga
+    - Phuket
+    - Satun
+    - Samut Songkhram
+  geometry_source: STC-G2-SHP
+  sample_plot_coordinate_source: STC-G2-SAMPLE-PLOT-CSV
+  crs_status: UNCONFIRMED_FROM_CSV
+
+timeline:
+  project_start_date: 2023-11-15
+  crediting_start_date: 2023-11-15
+  crediting_end_date: 2033-11-14
+  crediting_years: 10
+  registration_date: 2024-08-28
+
+carbon_pools:
+  tree_aboveground: true
+  tree_belowground: true
+  soc: false
+  deadwood: false
+  litter: false
+
+ex_ante_calculation:
+  baseline_tco2eq: 546011.7485172224
+  mangrove_increment_tco2eq_per_rai_year: 9.4
+  year10_project_tco2eq: 1392533.4485172224
+  net_10yr_tco2eq: 846521.70
+  annual_average_tco2eq_per_year: 84652.17
+  certificate_rounded_tco2eq_per_year: 84652
+  project_emissions_tco2eq: 0
+  leakage_tco2eq: 0
+  status: PROJECT_ESTIMATE
+  issuance_evidence: null
+  certified_credit: false
+
+field_measurement:
+  normal_dbh_height_m: 1.3
+  minimum_dbh_cm_for_equation: 4.5
+  minimum_height_m_exclusive: 1.3
+  rhizophora_pom: "30 cm above the highest securely grounded prop-root attachment, or appropriate POM per applicable allometry/guidance"
+
+allometry:
+  reference: "Komiyama et al. 2005"
+  abg: "0.251 * rho * D^2.46"
+  blg: "0.199 * rho^0.899 * D^2.22"
+  co2_c_conversion: "44/12"
+
+monitoring:
+  boundary_gps_interval_years: 5
+  risks:
+    - disease_and_insects
+    - encroachment
+
+sources:
+  source_note: ../../sources/stc-standard-tver-group2-drive.md
+  pdd: STC-G2-PDD-DRIVE
+  calculation_workbook: STC-G2-CALC-XLSX
+  validation_report: STC-G2-VALIDATION
+  registration_certificate: STC-G2-REG-CERT
+
+conflicts:
+  annual_vs_total_quantity: RESOLVED_BY_HIGHER_CONFIDENCE_EVIDENCE
+  validated_pdd_vs_drive_copy_identity: VERSION_IDENTITY_UNCONFIRMED

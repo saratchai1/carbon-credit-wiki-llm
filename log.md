@@ -31,3 +31,17 @@
 - Added a calculator hard-stop warning `CONFLICT_REQUIRES_RECONCILIATION` for the SOC workbook implementation versus methodology/PDD wording; preserved the validated reported ex-ante value without inventing a replacement formula.
 - Updated `sources/source-registry.md`, `sources/known-gaps.md`, and `index.md`.
 - Shapefile ZIP binary contents/hash/CRS/feature schema were not independently inspected in this ingest; geometry equivalence must be validated before claiming a specific GIS copy is authoritative.
+
+## [2026-09-04] ingest | Registered Standard T-VER Group 2 source bundle
+- Ingested Google Drive folder `1naQZbzf1ZsbmIoI62huW04946eICuglE` as primary evidence for Standard T-VER Group 2.
+- Added project-specific methodology lock: `T-VER-S-METH-13-03` v01 + `T-VER-S-TOOL-01-01` v01.
+- Added project pages for baseline, project sequestration, field measurement/POM, allometry, monitoring, spatial sample plots and validation/registration evidence.
+- Recorded 50 plots, 9,005.55 rai, 6 provinces and crediting period 15 Nov 2023–14 Nov 2033.
+- Recorded registered ex-ante calculation: baseline 546,011.7485 tCO2eq; year-10 project value 1,392,533.4485 tCO2eq; net 846,521.70 tCO2eq; annual average 84,652.17 tCO2eq/year; certificate rounded value 84,652 tCO2eq/year.
+- Recorded carbon-pool exclusions: SOC, deadwood and litter.
+- Recorded project-specific field/POM rule for Rhizophora and Komiyama et al. 2005 ABG/BLG equations.
+- Recorded boundary GPS monitoring every 5 years plus disease/insect and encroachment risk monitoring.
+- Added source IDs for registration certificate, Validation Report, PDD copy, calculation workbook, sample-plot CSV and shapefile archive.
+- Added immutable external-source manifest `raw/project-g2-drive-source-manifest-2026-09-04.md`; raw PDFs/GIS binaries/PII were not copied into the public repo.
+- Conflict `C-001` resolved in favor of certificate + Validation Report + workbook: 84,652 is annual (rounded), 846,521.70 is 10-year net total.
+- Conflict `C-002` remains `VERSION_IDENTITY_UNCONFIRMED`: Validation Report cites PDD v2 dated 23 Jun 2024 while Drive contains files named V2(22-8-24); no byte-level comparison performed.
