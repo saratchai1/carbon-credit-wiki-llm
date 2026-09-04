@@ -1,0 +1,20 @@
+plot_id_normalized,plot_id_source,village_no,village,subdistrict,district,province,site_condition,allocated_area_rai,project_area_rai
+28-STC,28-STC,4,ตันหยงเปาว์,ท่ากำชำ,หนองจิก,ปัตตานี,former_shrimp_or_aquaculture_pond,5.56,2.47
+29-STC,29-STC,4,ตันหยงเปาว์,ท่ากำชำ,หนองจิก,ปัตตานี,former_shrimp_or_aquaculture_pond,12.60,8.22
+30-STC,30-STC,4,พรุใหญ่,กระโสม,ตะกั่วทุ่ง,พังงา,former_shrimp_or_aquaculture_pond,2.65,1.33
+31-STC,31-STC,11,ท่าปากแหว่ง,โคกกลอย,ตะกั่วทุ่ง,พังงา,former_shrimp_or_aquaculture_pond,22.17,11.81
+14-STC,14-STC,8,ถนนกะเพรา,เนินฆ้อ,แกลง,ระยอง,cleared_planting_ready,6.75,4.48
+15-STC,15-STC,3,บ้านเขาน้อย,กองดิน,แกลง,ระยอง,cleared_planting_ready,7.02,5.07
+19-STC,19-STC,2,บ้านท่าเจริญผล,เนินฆ้อ,แกลง,ระยอง,cleared_planting_ready,16.98,15.21
+20-STC,20-STC,2,บ้านท่าเจริญผล,เนินฆ้อ,แกลง,ระยอง,cleared_planting_ready,32.46,28.69
+37-STC,37-STC,7,บ้านเลม็ด,เลม็ด,ไชยา,สุราษฎร์ธานี,accreting_mudflat,200.05,157.55
+36-STC,36-STC,14,คลองผีขุด,บางปะกง,บางปะกง,ฉะเชิงเทรา,accreting_mudflat,100.19,98.75
+66-STC,66-STC,1,คลองวาฬ,คลองวาฬ,เมือง,ประจวบคีรีขันธ์,former_shrimp_or_aquaculture_pond,83.44,30.49
+22-STC,22-STC,3,บ้านเขาถ้ำ,กองดิน,แกลง,ระยอง,cleared_planting_ready,28.57,26.05
+23-STC,23-STC,2,บ้านนาซา,ปากน้ำกระแส,แกลง,ระยอง,cleared_planting_ready,51.39,42.90
+14(1)-STC,14 (1)-STC,8,บ้านถนนกระเพรา,เนินฆ้อ,แกลง,ระยอง,former_shrimp_or_aquaculture_pond,14.08,12.47
+18(1)-STC,18(1)-STC,6,ทะเลน้อย,ทางเกวียน,แกลง,ระยอง,former_shrimp_or_aquaculture_pond,29.12,21.03
+22(1)-STC,22(1)-STC,3,เขาถ้ำ,กองดิน,แกลง,ระยอง,former_shrimp_or_aquaculture_pond,16.86,13.06
+23(1)-STC,23(1)-STC,6,อ่าวมะขามป้อม,กร่ำ,แกลง,ระยอง,former_shrimp_or_aquaculture_pond,9.10,7.46
+89(1)-STC,89(1)-STC,2,บ้านตำมะลังเหนือ,ตำมะลัง,เมืองสตูล,สตูล,cleared_planting_ready,48.54,48.48
+35-STC,35-STC,2,บ้านบากัน,อ่าวลึกน้อย,อ่าวลึก,กระบี่,accreting_mudflat,63.12,18.80

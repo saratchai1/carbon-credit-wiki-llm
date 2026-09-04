@@ -7,7 +7,9 @@
 - [[architecture/ingest-workflow]] — ingest/query/lint
 
 ## Projects
-- [[projects/group-1-mangrove-reforestation]] — Premium T-VER mangrove reforestation Group 1; registered ex-ante profile, boundary, MRV, sources and gaps
+- [[projects/project-identity-map]] — mandatory disambiguation map because two distinct Premium T-VER project packages use “Group 1” wording
+- [[projects/group-1-mangrove-reforestation]] — `premium-tver-mangrove-group-1`; 40 plots / 1,195.64 rai / 11,315 tCO2e/year ex-ante
+- [[projects/moc1-stc-mangrove-reforestation]] — `premium-tver-moc1-stc-group-1`; 19 plots / 554.32 rai / 5,739 tCO2e/year ex-ante
 - [[projects/standard-tver-group-2/README]] — Registered Standard T-VER Group 2; project-specific methodology lock, baseline, sequestration, POM, allometry, monitoring, spatial evidence and validation/registration
 
 ## Standard / Methodology
@@ -37,7 +39,9 @@
 ## Data
 - [[data/data-dictionary]] — field definitions
 - [[data/evidence-hierarchy]] — evidence tiers
-- `data/project-profile.yaml` — active Group 1 project configuration
+- `data/project-profile.yaml` — profile for `premium-tver-mangrove-group-1`
+- `data/project-profile-moc1-stc.yaml` — profile for `premium-tver-moc1-stc-group-1`
+- `data/project-moc1-stc-plots.csv` — 19-plot structured boundary/condition table for MOC1/STC
 - `data/tree_measurements.csv` — template
 - `data/planting_cohorts.csv` — template
 - `data/activity_emissions.csv` — template
@@ -52,6 +56,13 @@
 - [[sources/project-g1-sdg-safeguards-2024-04-23]]
 - [[sources/project-g1-certificate-2024-06-21]]
 - [[sources/project-g1-shapefile-manifest-2024-06-11]]
+- `raw/project-moc1-stc-drive-manifest-2024-06-14.md` — immutable external-source provenance snapshot for MOC1/STC
+- [[sources/project-moc1-stc-pdd-2024-06-12]]
+- [[sources/project-moc1-stc-calculation-workbook-2024-06-13]]
+- [[sources/project-moc1-stc-validation-2024-06-13]]
+- [[sources/project-moc1-stc-sdg-safeguards-2024-01-30]]
+- [[sources/project-moc1-stc-certificate-2024-06-21]]
+- [[sources/project-moc1-stc-shapefile-manifest-2024-06-14]]
 - `raw/project-g2-drive-source-manifest-2026-09-04.md` — immutable external-source provenance snapshot for Standard T-VER Group 2
 - [[sources/stc-standard-tver-group2-drive]] — Group 2 registration/PDD/calculation/validation/GIS source bundle
 

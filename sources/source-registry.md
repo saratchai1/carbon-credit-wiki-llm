@@ -51,7 +51,7 @@ Checked: **2026-09-04**
 - Important: lists T-VER-P-METH-13-02 v1 and several forestry tools for revision in 2026
 - URL: https://tver.tgo.or.th/component/content/category/about-us?Itemid=101
 
-## Project primary evidence — Premium T-VER Mangrove Group 1
+## Project primary evidence — Premium T-VER Mangrove Group 1 (`PROJECT-G1-*`)
 
 ### PROJECT-G1-DRIVE-MANIFEST-2026-09-04
 - Tier: immutable external-source provenance manifest
@@ -105,6 +105,57 @@ Checked: **2026-09-04**
 - Source note: `sources/project-g1-shapefile-manifest-2024-06-11.md`
 - Limitation: raw ZIP bytes/hash/CRS/feature schema not independently validated in this GitHub ingest
 - URL: https://drive.google.com/file/d/1bt6v-8fvTcf2vbX7FV1dSI5WgmnNbwLr/view
+
+## Project primary evidence — MOC1 / Siam TC Group 1 (`PROJECT-MOC1-STC-*`)
+
+Identity warning: this is a separate project package from `PROJECT-G1-*`. See `projects/project-identity-map.md`.
+
+### PROJECT-MOC1-STC-PDD-2024-06-12-V03
+- Tier: registered project PDD / primary design evidence
+- Title: PDD_P_MOC1_V03(12-6-24).pdf
+- Key use: exact project identity, parties, plot IDs, methodology lock, boundary/MRV context
+- Source note: `sources/project-moc1-stc-pdd-2024-06-12.md`
+- URL: https://drive.google.com/file/d/1XMES0-VfH4SxDct0w9xaedOXnJBBZMRY/view
+
+### PROJECT-MOC1-STC-CALC-2024-06-13
+- Tier: project calculation evidence
+- Title: excel-MOC1-predict.xlsx
+- Key use: 19-plot area data; 554.32-rai registered ex-ante arithmetic; 5,739.0597333 tCO2e/year; 86,085.896 tCO2e/15 years
+- Source note: `sources/project-moc1-stc-calculation-workbook-2024-06-13.md`
+- Conflict note: same workbook retains a 535.46-rai / 5,543.7958667-tCO2e/year legacy block, marked `SUPERSEDED_WITHIN_PROJECT_PACKAGE`
+- URL: https://docs.google.com/spreadsheets/d/1Y1QvyOdxdHt8KtMCQ2ooTpWtGexHIGKfwP/edit
+
+### PROJECT-MOC1-STC-VALIDATION-2024-06-13-V02
+- Tier: independent VVB validation evidence
+- Authority: Bureau Veritas Certification (Thailand) Ltd.
+- Validated PDD: version 3 dated 2024-06-12
+- Validation opinion: CERTIFY_WITH_COMMENT
+- Key use: confirms 19 plots / 554.32 rai, methodology, 5,739 tCO2e/year, 15-year crediting period, 30-year maintenance context and MRV design
+- Source note: `sources/project-moc1-stc-validation-2024-06-13.md`
+- URL: https://drive.google.com/file/d/1xcuhNDmDN4ucMlC461SRmtLzboGiEkQY/view
+
+### PROJECT-MOC1-STC-SDG-SAFEGUARDS-2024-01-30-V01
+- Tier: project SD/Safeguards evidence
+- Code: T-VER-P-F006-SDG
+- Key use: project start 2023-10-01, SDG 13 five-year growth indicator, SDG 14 ecosystem benefit and annual employment/income indicator
+- Source note: `sources/project-moc1-stc-sdg-safeguards-2024-01-30.md`
+- URL: https://drive.google.com/file/d/104dtgIuz-2B7c75eaWaQ7LqFEjh66CWM/view
+
+### PROJECT-MOC1-STC-CERTIFICATE-2024-06-21
+- Tier: TGO registration certificate evidence
+- Authority: Thailand Greenhouse Gas Management Organization (TGO)
+- Key use: confirms Premium T-VER registration, 5,739 tCO2eq/year ex-ante expectation and 2023-10-01 to 2038-09-30 crediting period
+- Source note: `sources/project-moc1-stc-certificate-2024-06-21.md`
+- Status warning: registration/ex-ante evidence, not actual issuance evidence
+- URL: https://drive.google.com/file/d/1yF6GxGgxJxy0Uj3FSP6vsfthLW_qezG2/view
+
+### PROJECT-MOC1-STC-SHAPEFILE-2024-06-14
+- Tier: external project GIS evidence manifest
+- Title: MOC1_shp-file.rar
+- Key use: candidate authoritative project geometry package
+- Source note: `sources/project-moc1-stc-shapefile-manifest-2024-06-14.md`
+- Limitation: archive not unpacked; CRS/feature count/geometry/hash not yet validated
+- URL: https://drive.google.com/file/d/11JQs9-HVHqEeegj5Dw8aoFHeqyQsh-4G/view
 
 ## Project primary evidence — Standard T-VER Group 2
 

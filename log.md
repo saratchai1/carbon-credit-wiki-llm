@@ -45,3 +45,15 @@
 - Added immutable external-source manifest `raw/project-g2-drive-source-manifest-2026-09-04.md`; raw PDFs/GIS binaries/PII were not copied into the public repo.
 - Conflict `C-001` resolved in favor of certificate + Validation Report + workbook: 84,652 is annual (rounded), 846,521.70 is 10-year net total.
 - Conflict `C-002` remains `VERSION_IDENTITY_UNCONFIRMED`: Validation Report cites PDD v2 dated 23 Jun 2024 while Drive contains files named V2(22-8-24); no byte-level comparison performed.
+
+## [2026-09-04] ingest | MOC1 / Siam TC Premium T-VER project package
+- Ingested the user-provided Google Drive folder `18JoPb5Ci3_OrZziLyKSsNSDom4AnWe6z` as a distinct project package: `premium-tver-moc1-stc-group-1`.
+- Added project page, dedicated YAML profile, 19-plot structured CSV, six source notes, source-registry entries and immutable external-source manifest.
+- Recorded validated project area 554.32 rai across 19 plots / 8 provinces; allocated area 750.65 rai is kept separate.
+- Recorded registered ex-ante arithmetic: tree 5,210.608 + SOC 528.4517333 = 5,739.0597333 tCO2e/year; 86,085.896 tCO2e over 15 years; certificate rounds to 5,739 tCO2e/year.
+- Preserved the workbook’s 535.46-rai / 5,543.7958667-tCO2e/year / 83,156.938-tCO2e legacy calculation block as `SUPERSEDED_WITHIN_PROJECT_PACKAGE` rather than deleting it.
+- Added `projects/project-identity-map.md` because an existing, separate `PROJECT-G1-*` package also uses “Group 1” wording. No supersession/merge relationship is assumed between the two project packages.
+- Recorded VVB as Bureau Veritas Certification (Thailand) Ltd. with `CERTIFY_WITH_COMMENT`, and separated the 30-year maintenance context from the 15-year crediting period.
+- Recorded MRV design: stratified random sampling, repeated measurement, DBH as material variable, and Komiyama reference as `REFERENCE_ONLY` pending exact equation/range verification.
+- Original binaries were not mirrored into this public repository because they may contain personal/contact information; stable Drive IDs/URLs are preserved in the raw external-source manifest and source notes.
+- Actual Monitoring Report, Verification Report, issuance evidence, final buffer result and inspected shapefile geometry are still missing; actual credits remain `NOT_EVIDENCED`.

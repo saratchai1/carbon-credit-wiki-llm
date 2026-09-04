@@ -1,0 +1,136 @@
+project_id: premium-tver-moc1-stc-group-1
+project_name: "mangrove reforestation for sustainable environment in Thailand (group 1)"
+project_name_th: "โครงการฟื้นฟูป่าชายเลน เพื่อระบบนิเวศที่ยั่งยืนของประเทศไทย (กลุ่ม 1)"
+project_page: projects/moc1-stc-mangrove-reforestation.md
+identity_map: projects/project-identity-map.md
+
+standard:
+  name: Premium T-VER
+  authority: TGO
+  methodology_code: T-VER-P-METH-13-02
+  methodology_version: "01"
+  pdd_methodology_locked: true
+  pdd_source: PROJECT-MOC1-STC-PDD-2024-06-12-V03
+  validation_source: PROJECT-MOC1-STC-VALIDATION-2024-06-13-V02
+  registration_certificate_source: PROJECT-MOC1-STC-CERTIFICATE-2024-06-21
+
+parties:
+  owner_developer: "Department of Marine and Coastal Resources (DMCR)"
+  co_developers:
+    - "Siam TC Technology Co., Ltd."
+  validation_vvb: "Bureau Veritas Certification (Thailand) Ltd."
+
+boundary:
+  allocated_area_rai: 750.65
+  project_area_rai: 554.32
+  project_area_ha_approx: 88.69
+  plots: 19
+  provinces: 8
+  geometry_source: PROJECT-MOC1-STC-SHAPEFILE-2024-06-14
+  geometry_content_verified_in_repo: false
+  boundary_rule: "Use 554.32 rai for the validated/registered ex-ante package; do not substitute the 750.65 rai allocated area."
+  plot_data: data/project-moc1-stc-plots.csv
+
+plots:
+  count: 19
+  by_province:
+    Pattani: {plots: 2, area_rai: 10.69}
+    Phang_Nga: {plots: 2, area_rai: 13.14}
+    Rayong: {plots: 10, area_rai: 176.42}
+    Surat_Thani: {plots: 1, area_rai: 157.55}
+    Chachoengsao: {plots: 1, area_rai: 98.75}
+    Prachuap_Khiri_Khan: {plots: 1, area_rai: 30.49}
+    Satun: {plots: 1, area_rai: 48.48}
+    Krabi: {plots: 1, area_rai: 18.80}
+  strata:
+    former_shrimp_or_aquaculture_ponds: {plots: 9, area_rai: 108.34}
+    cleared_planting_ready: {plots: 7, area_rai: 170.88}
+    accreting_mudflat: {plots: 3, area_rai: 275.10}
+
+eligibility:
+  baseline_tco2e: 0
+  baseline_source: PROJECT-MOC1-STC-VALIDATION-2024-06-13-V02
+  mangrove_species_only_or_dominant: true
+  source: PROJECT-MOC1-STC-VALIDATION-2024-06-13-V02
+
+timeline:
+  project_start_date: 2023-10-01
+  crediting_start_date: 2023-10-01
+  crediting_end_date: 2038-09-30
+  crediting_years: 15
+  maintenance_commitment_years: 30
+  monitoring_period_start: null
+  monitoring_period_end: null
+
+carbon_pools:
+  tree_aboveground: true
+  tree_belowground: true
+  soc: true
+  source: PROJECT-MOC1-STC-CALC-2024-06-13
+
+registered_ex_ante:
+  status: PROJECT_ESTIMATE
+  project_area_rai: 554.32
+  tree_mai_tco2e_per_rai_per_year: 9.4
+  tree_component_tco2e_per_year: 5210.608
+  tree_component_15y_tco2e: 78159.12
+  soc_default_tC_per_rai_per_year: 0.26
+  soc_component_tco2e_per_year: 528.4517333333334
+  soc_component_15y_tco2e: 7926.776
+  total_15y_tco2e: 86085.896
+  reported_average_tco2e_per_year: 5739
+  calculated_average_tco2e_per_year: 5739.059733333334
+  baseline_tco2e: 0
+  leakage_tco2e: 0
+  project_emissions_ex_ante_tco2e: 0
+  source: PROJECT-MOC1-STC-CALC-2024-06-13
+  validation_source: PROJECT-MOC1-STC-VALIDATION-2024-06-13-V02
+  certificate_source: PROJECT-MOC1-STC-CERTIFICATE-2024-06-21
+  warning: "Registered ex-ante estimate; not evidence of actual issued credits."
+
+legacy_calculation_block:
+  status: SUPERSEDED_WITHIN_PROJECT_PACKAGE
+  area_rai: 535.46
+  tree_component_tco2e_per_year: 5033.324
+  soc_component_tco2e_per_year: 510.4718666666667
+  total_tco2e_per_year: 5543.795866666667
+  total_15y_tco2e: 83156.938
+  source: PROJECT-MOC1-STC-CALC-2024-06-13
+  rule: "Retain for provenance; do not use as current registered result."
+
+monitoring:
+  method: stratified_random_sampling
+  repeated_plots: true
+  baseline_sample_plots_established_at_validation: false
+  reason_baseline_sample_plots_absent: "Baseline assessed as zero in validation package"
+  dbh_material_variable: true
+  allometry_reference: "Komiyama et al. (2005), quoted by project validation evidence; exact equation/range verification pending before registry promotion"
+  allometry_status: REFERENCE_ONLY
+  source: PROJECT-MOC1-STC-VALIDATION-2024-06-13-V02
+
+remote_sensing:
+  geometry_source: PROJECT-MOC1-STC-SHAPEFILE-2024-06-14
+  geometry_archive_inspected: false
+  direct_tree_count_to_tco2e_allowed: false
+  direct_ndvi_canopy_to_tco2e_allowed: false
+
+sustainable_development:
+  source: PROJECT-MOC1-STC-SDG-SAFEGUARDS-2024-01-30-V01
+  sdg13_growth_frequency_years: 5
+  employment_income_frequency: annual
+  sdg14_mangrove_ecosystem: true
+
+non_permanence:
+  risk_report_source: null
+  buffer_rate_pct: null
+  verified: false
+
+status:
+  lifecycle: REGISTERED_PROJECT
+  readiness: PROJECT_ESTIMATE
+  validation_opinion: CERTIFY_WITH_COMMENT
+  actual_monitoring_report_ingested: false
+  actual_verification_report_ingested: false
+  issuance_evidence_ingested: false
+  actual_credit_status: NOT_EVIDENCED
+  identity_collision_warning: "Do not merge with premium-tver-mangrove-group-1 / PROJECT-G1-* package."
