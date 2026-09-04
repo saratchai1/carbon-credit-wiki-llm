@@ -53,6 +53,12 @@ Checked: **2026-09-04**
 
 ## Project primary evidence — Premium T-VER Mangrove Group 1
 
+### PROJECT-G1-DRIVE-MANIFEST-2026-09-04
+- Tier: immutable external-source provenance manifest
+- Key use: records the Google Drive folder and observed file IDs/metadata used for the first project ingest
+- Raw manifest: `raw/project-g1-drive-source-manifest-2026-09-04.md`
+- Folder: https://drive.google.com/drive/folders/1awaITaYergWM0l2_Yn4_mWu3tsB9Omc4
+
 ### PROJECT-G1-PDD-2024-04-30-V06
 - Tier: registered project PDD / primary design evidence
 - Title: Project Design Document — Greenhouse Gas Reduction with Mangrove Reforestation in Thailand (Group 1)
