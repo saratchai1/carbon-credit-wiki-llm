@@ -1,0 +1,61 @@
+project_id: null
+project_name: null
+
+standard:
+  name: Premium T-VER
+  authority: TGO
+  methodology_code: T-VER-P-METH-13-02
+  methodology_version: "01"
+  methodology_checked_on: 2026-09-04
+  pdd_methodology_locked: false
+
+boundary:
+  project_area_rai: null
+  geometry_source: null
+  location: null
+
+eligibility:
+  legal_land_rights_source: null
+  baseline_not_forest_source: null
+  mangrove_species_share_pct: null
+  hydrology_change: null
+  soil_disturbance_pct: null
+  additionality_source: null
+
+timeline:
+  project_start_date: null
+  crediting_start_date: null
+  monitoring_period_start: null
+  monitoring_period_end: null
+
+carbon_pools:
+  tree_aboveground: true
+  tree_belowground: true
+  sapling: null
+  deadwood: false
+  litter: false
+  soc: false
+
+monitoring:
+  method: null
+  repeated_plots: null
+  allometry_registry: data/allometry-registry.yaml
+  tree_measurements: data/tree_measurements.csv
+
+emissions:
+  burning_source: data/activity_emissions.csv
+  fossil_fuel_source: data/activity_emissions.csv
+  small_project_exemption_confirmed: false
+
+leakage:
+  applicable: null
+  source: null
+
+non_permanence:
+  risk_report_source: null
+  buffer_rate_pct: null
+  verified: false
+
+status:
+  readiness: NOT_CALCULABLE
+  notes: "Fill mandatory project evidence before project-grade calculation."

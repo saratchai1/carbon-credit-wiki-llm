@@ -1,0 +1,17 @@
+# Do not invent or silently add equations.
+# Each equation must have a source and applicability evidence.
+
+allometries: []
+# Example structure:
+# - allometry_id: MANGROVE-EXAMPLE-001
+#   species: Rhizophora apiculata
+#   component: ABG
+#   equation: null
+#   variables: [DBH_cm]
+#   valid_range:
+#     dbh_min_cm: null
+#     dbh_max_cm: null
+#   source_id: null
+#   ex_ante_allowed: null
+#   ex_post_justified: null
+#   tgo_tool_01_07_check: PENDING

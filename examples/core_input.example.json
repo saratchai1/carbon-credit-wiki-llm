@@ -1,0 +1,26 @@
+{
+  "calculation_id": "EXAMPLE-ONLY",
+  "methodology": {
+    "code": "T-VER-P-METH-13-02",
+    "version": "01",
+    "checked_on": "2026-09-04"
+  },
+  "period": {
+    "start": "YYYY-MM-DD",
+    "end": "YYYY-MM-DD"
+  },
+  "project_carbon_change_tco2e": {
+    "tree": null,
+    "sapling": 0,
+    "deadwood": 0,
+    "soc": 0
+  },
+  "project_emissions_tco2e": {
+    "burning": 0,
+    "fuel": 0
+  },
+  "baseline_net_removal_tco2e": null,
+  "leakage_tco2e": null,
+  "buffer_rate_pct": null,
+  "result_status": "NOT_CALCULABLE"
+}
