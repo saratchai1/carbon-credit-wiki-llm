@@ -1,24 +1,37 @@
 # Known Gaps
 
-Wiki structure and methodology core are ready, but **project-specific credit calculation is NOT yet possible** until these are ingested:
+## Group 1 project status after 2026-09-04 ingest
 
-1. exact project boundary + area
-2. land-use-right evidence
-3. baseline imagery/history
-4. planting dates/cohorts
-5. species composition
-6. PDD / methodology-version lock
-7. sampling design and strata
-8. tree measurements at required monitoring dates
-9. approved/justified allometric equations
-10. CF/root parameters
-11. sapling/deadwood/SOC inclusion decisions
-12. burning/fuel logs
-13. leakage assessment
-14. uncertainty calculation
-15. non-permanence risk report and buffer rate
-16. VVB/TGO evidence if result is to be called verified/certified
+The registered ex-ante configuration for **Greenhouse Gas Reduction with Mangrove Reforestation in Thailand (Group 1)** is now ingested and supports `PROJECT_ESTIMATE`-grade reproduction of the registered design estimate.
+
+Available project evidence now includes:
+- registered PDD / methodology-version lock,
+- validated project area = 1,195.64 rai across 40 plots / 7 provinces,
+- allocation-vs-accounting-area distinction,
+- project strata and sampling design,
+- carbon-pool inclusion choices,
+- registered ex-ante MAI/workbook values,
+- baseline/project-emission/leakage configuration,
+- Validation Report and registration certificate,
+- SD/Safeguards monitoring cadences,
+- external shapefile package manifest.
+
+## Group 1 remaining gaps before actual verified/certified credit claims
+
+1. actual Monitoring Report for a completed monitoring period
+2. tree-level/sample-plot measurements for the relevant monitoring dates
+3. final monitoring-period uncertainty calculation and conservative deduction
+4. Verification Report for actual removals
+5. TGO issuance/certification evidence for the actual credit batch
+6. non-permanence risk assessment and issuance-period buffer rate/result
+7. raw shapefile ZIP content ingested or independently hashed/validated for CRS, geometry and feature schema
+8. production reconciliation of SOC workbook implementation versus the registered methodology equation/text
+9. planting dates/cohorts at sufficient detail for monitoring-period calculations
+10. species composition and tree-level measurement-point evidence sufficient for ex-post allometry checks
+11. activity evidence if future monitoring introduces burning/fuel emissions or changes the registered zero/not-considered assumptions
+
+Until items 1–5 are available, do not report actual current credits as `VERIFIED_RESULT` or `CERTIFIED_CREDIT`.
 
 ## Methodology gap to monitor
 
-TGO 2026 work plan lists the mangrove A/R methodology and relevant forestry tools for revision. The wiki must recheck current versions before any submission-grade work.
+TGO 2026 work plan lists the mangrove A/R methodology and relevant forestry tools for revision. The wiki must recheck current versions before any submission-grade work and distinguish current-tool rules from requirements locked by the registered PDD/transition provisions.
