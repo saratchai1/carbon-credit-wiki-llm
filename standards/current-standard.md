@@ -35,3 +35,13 @@ Guideline for Premium T-VER Version 6.0 ประกาศ 19 March 2026.
 
 Project PDD methodology/version มี priority ต่อ “wiki default”.  
 ถ้า project ถูก register ด้วย version ที่ต่างจาก default ให้สร้าง project-specific methodology lock.
+
+## Project-specific Standard T-VER locks
+
+The Wiki contains registered Standard T-VER projects using historical `T-VER-S-METH-13-03` v01 + `T-VER-S-TOOL-01-01` v01. See [[../methodologies/T-VER-S-METH-13-03]].
+
+Two distinct projects currently share “Group 2” wording:
+- `STC-STANDARD-TVER-GROUP-2` — 50 plots / 9,005.55 rai / 84,652 tCO2eq/year;
+- `STC-VSD-STANDARD-TVER-GROUP-2` — 22 plots / 6,775.53 rai / 63,689 tCO2eq/year.
+
+These project locks exist to reproduce registered historical calculations. They do **not** establish that `T-VER-S-METH-13-03` v01 is currently valid for a new 2026 registration. New-project use requires a fresh TGO status/transition check.

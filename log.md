@@ -57,3 +57,16 @@
 - Recorded MRV design: stratified random sampling, repeated measurement, DBH as material variable, and Komiyama reference as `REFERENCE_ONLY` pending exact equation/range verification.
 - Original binaries were not mirrored into this public repository because they may contain personal/contact information; stable Drive IDs/URLs are preserved in the raw external-source manifest and source notes.
 - Actual Monitoring Report, Verification Report, issuance evidence, final buffer result and inspected shapefile geometry are still missing; actual credits remain `NOT_EVIDENCED`.
+
+## [2026-09-04] ingest | Distinct Standard T-VER Group 2 — Siam TC + Visut
+- Ingested Google Drive folder `1Wj-tjfkkmgYdiCbJnA7CoXwjgMqHJbGg` as primary evidence for project `STC-VSD-STANDARD-TVER-GROUP-2`.
+- Detected and preserved a critical identity distinction from existing `STC-STANDARD-TVER-GROUP-2`; both use “Group 2” wording and the same Standard T-VER methodology code but are different projects.
+- Updated `projects/project-identity-map.md` so LLM queries must resolve Group 2 identity before using project-specific numbers.
+- Recorded STC+VSD project: 22 plots, 6,775.53 rai, 8 provinces, crediting 2024-05-31 to 2034-05-30.
+- Registered methodology lock: `T-VER-S-METH-13-03` v01 + `T-VER-S-TOOL-01-01` v01.
+- Recorded ex-ante values: baseline tree carbon 362,962.8144 tCO2eq; exact year-10 increment 636,899.82 tCO2eq; PDD reported 636,899 tCO2eq/10 years; exact annual increment 63,689.982; certificate/PDD reported 63,689 tCO2eq/year; year-10 project tree carbon 999,862.6344 tCO2eq.
+- Added calculation-reference tables for Gulf/Andaman × FCD high/medium/low baseline strata and 10-year projection.
+- Recorded Landsat-8/FCD stratification, 1-rai/0.5-rai sample plots, Rhizophora 30-cm-above-prop-root POM and tree-level DBH/species/wood-density biomass chain.
+- Recorded VGreen KU validation lessons: 4 MM / 2 M / 4 NC closed; boundary water exclusion, GIS/PDD/workbook consistency, recalc after area change, tag/species and species/allometry checks, monitoring-parameter alignment.
+- Added external-source manifest with observed Drive file IDs/metadata; raw source binaries/PII were not copied into the public repo.
+- Classified ex-ante numbers as `PROJECT_ESTIMATE`; no Monitoring Report, monitoring Verification Report or issuance evidence was ingested.

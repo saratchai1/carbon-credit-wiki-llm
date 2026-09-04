@@ -30,6 +30,22 @@ T-VER-P-TOOL-01-02 explicitly allows satellite/aerial imagery for area-related m
 
 TGO also publishes reference guidance on remote sensing + AI for forestry/agriculture carbon assessment.
 
+## Registered Standard T-VER precedent — STC+VSD Group 2
+
+The registered PDD uses **Landsat-8 / Forest Canopy Density (FCD)** information to support baseline stratification and sample-plot allocation.
+
+Strata split by:
+- Gulf of Thailand vs Andaman coast; and
+- FCD high `>65%`, medium `30–65%`, low `<30%`.
+
+The PDD describes vegetation, bare-soil and shadow-index inputs in the FCD workflow. This supports the architecture:
+
+`satellite → stratification / sample design → field measurement → carbon calculation`
+
+It does **not** support direct `FCD/NDVI/canopy/tree-count → tCO2e credit` conversion.
+
+The PDD also allows satellite/aerial imagery as evidence for burned-area monitoring together with field survey.
+
 ## Hard rule
 
 Remote sensing is **not automatically a carbon-credit calculator**.
@@ -63,3 +79,5 @@ Remote sensing → stratification / secondary variable / QA
 Field measurements → primary biomass calibration  
 Statistical model → project estimate  
 T-VER uncertainty → conservative result
+
+Project-specific example: `projects/standard-tver-group-2-stc-vsd/monitoring.md`.

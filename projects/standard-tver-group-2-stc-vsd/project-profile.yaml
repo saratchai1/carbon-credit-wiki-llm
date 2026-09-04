@@ -1,0 +1,122 @@
+project_id: STC-VSD-STANDARD-TVER-GROUP-2
+project_name_th: "โครงการปลูกป่าชายเลนช่วยโลกลดก๊าซเรือนกระจกในประเทศไทย (กลุ่ม 2)"
+project_name_en: "Greenhouse Gas Reduction with Mangrove Reforestation in Thailand (Group 2)"
+
+standard:
+  name: Standard T-VER
+  authority: TGO
+  project_form: bundled
+  project_scale: large
+  methodology_code: T-VER-S-METH-13-03
+  methodology_version: "01"
+  calculation_tool_code: T-VER-S-TOOL-01-01
+  calculation_tool_version: "01"
+  pdd_methodology_locked: true
+
+parties:
+  owner_developer: "Department of Marine and Coastal Resources (DMCR)"
+  co_developers:
+    - "บริษัท สยาม ทีซี เทคโนโลยี จำกัด"
+    - "บริษัท วิสุทธิ คอนซัลแตนท์ จำกัด"
+
+registration:
+  certificate_date: 2024-08-28
+  validation_report_date: 2024-07-01
+  validated_pdd_revision_date: 2024-06-25
+  validated_pdd_revision: "02"
+
+boundary:
+  project_area_rai: 6775.53
+  plot_count: 22
+  provinces:
+    - Chumphon
+    - Phang Nga
+    - Trang
+    - Satun
+    - Samut Songkhram
+    - Pattani
+    - Krabi
+    - Phuket
+  source_id: STC-VSD-G2-DRIVE-FOLDER
+  qc_rule: "Exclude water/channel areas not participating in the project."
+
+timeline:
+  crediting_start_date: 2024-05-31
+  crediting_end_date: 2034-05-30
+  crediting_years: 10
+
+ex_ante:
+  baseline_tree_carbon_stock_tco2e: 362962.8144
+  increment_input_tco2e_per_rai_per_year: 9.4
+  workbook_exact_increment_tco2e_per_year: 63689.982
+  reported_expected_tco2e_per_year: 63689
+  workbook_exact_increment_tco2e_10y: 636899.82
+  reported_expected_tco2e_10y: 636899
+  year10_project_tree_carbon_stock_tco2e: 999862.6344
+  leakage_tco2e: 0
+  investment_thb: 200097141.92
+
+stratification:
+  source: Landsat-8
+  method: Forest Canopy Density
+  dimensions:
+    coast:
+      - Gulf of Thailand
+      - Andaman
+    fcd:
+      high: ">65%"
+      medium: "30-65%"
+      low: "<30%"
+
+sampling:
+  plot_sizes:
+    - size_m: "40x40"
+      area_rai: 1.0
+    - size_m: "20x40"
+      area_rai: 0.5
+  tree_fields:
+    - species
+    - tree_tag
+    - GBH
+    - DBH
+  rhizophora_pom: "30 cm above prop-root point when prop roots rise above normal 1.30 m DBH point"
+
+calculation_reference:
+  carbon_fraction: 0.4715
+  co2_c_ratio: "44/12"
+  observed_workbook_equations:
+    agb: "0.251 * rho * D^2.46"
+    bgb: "0.199 * rho^0.899 * D^2.22"
+  allometry_warning: "Check species/row/source/domain before reuse."
+
+monitoring:
+  project_coordinates_frequency_years: 5
+  tree_carbon_stock_frequency_years: 5
+  tree_diameter_frequency_years: 3
+  burned_area_frequency_years: 5
+  burned_area_evidence:
+    - field
+    - satellite
+    - aerial
+  fossil_fuel_evidence_frequency: monthly_or_finer
+
+validation_qc:
+  material_misstatements: 4
+  misstatements: 2
+  nonconformities: 4
+  status: CLOSED_IN_REVISED_PDD
+
+sources:
+  bundle: STC-VSD-G2-DRIVE-FOLDER
+  pdd: STC-VSD-G2-PDD-PDF
+  calculation: STC-VSD-G2-CALC-XLSX
+  validation: STC-VSD-G2-VALIDATION
+  cobenefit: STC-VSD-G2-COBENEFIT-PDF
+  certificate: STC-VSD-G2-REG-CERT
+  raw_manifest: STC-VSD-G2-DRIVE-MANIFEST-2026-09-04
+
+status:
+  output_status: PROJECT_ESTIMATE
+  actual_monitoring_report_ingested: false
+  verification_report_ingested: false
+  issuance_evidence_ingested: false

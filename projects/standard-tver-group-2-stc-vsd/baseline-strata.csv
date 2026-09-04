@@ -1,0 +1,8 @@
+coast,fcd_class,baseline_tree_carbon_tco2e_per_rai,area_rai,baseline_tree_carbon_tco2e,source_id
+Gulf of Thailand,high,54.57,1821.64,99406.8948,STC-VSD-G2-CALC-XLSX
+Gulf of Thailand,medium,29.39,975.86,28680.5254,STC-VSD-G2-CALC-XLSX
+Gulf of Thailand,low,5.05,251.25,1268.8125,STC-VSD-G2-CALC-XLSX
+Andaman,high,71.66,2733.84,195906.9744,STC-VSD-G2-CALC-XLSX
+Andaman,medium,41.24,847.43,34948.0132,STC-VSD-G2-CALC-XLSX
+Andaman,low,18.91,145.51,2751.5941,STC-VSD-G2-CALC-XLSX
+TOTAL,,null,6775.53,362962.8144,STC-VSD-G2-CALC-XLSX

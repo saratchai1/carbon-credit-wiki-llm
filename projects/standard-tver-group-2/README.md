@@ -17,6 +17,15 @@ source_note: ../../sources/stc-standard-tver-group2-drive.md
 
 This folder is the project-specific methodology lock and evidence summary for the registered Standard T-VER mangrove project Group 2. It must not be mixed automatically with the Wiki default Premium T-VER methodology.
 
+## Critical disambiguation
+
+Do **not** confuse this project with [[../standard-tver-group-2-stc-vsd/README]], which is a separate registered Standard T-VER project with two co-developers and different project data.
+
+- **This project / STC:** 50 plots, 9,005.55 rai, 84,652 tCO2eq/year, crediting 2023-11-15 to 2033-11-14.
+- **STC+VSD project:** 22 plots, 6,775.53 rai, 63,689 tCO2eq/year, crediting 2024-05-31 to 2034-05-30.
+
+Never merge their boundaries, workbooks, baselines or registered quantities.
+
 ## Registered project identity
 
 - Owner / developer: กรมทรัพยากรทางทะเลและชายฝั่ง (DMCR)

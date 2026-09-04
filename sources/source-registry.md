@@ -55,109 +55,76 @@ Checked: **2026-09-04**
 
 ### PROJECT-G1-DRIVE-MANIFEST-2026-09-04
 - Tier: immutable external-source provenance manifest
-- Key use: records the Google Drive folder and observed file IDs/metadata used for the first project ingest
 - Raw manifest: `raw/project-g1-drive-source-manifest-2026-09-04.md`
 - Folder: https://drive.google.com/drive/folders/1awaITaYergWM0l2_Yn4_mWu3tsB9Omc4
 
 ### PROJECT-G1-PDD-2024-04-30-V06
 - Tier: registered project PDD / primary design evidence
-- Title: Project Design Document — Greenhouse Gas Reduction with Mangrove Reforestation in Thailand (Group 1)
-- PDD revision identified by Validation Report: 06 dated 2024-04-30
-- Key use: boundary, methodology lock, pools, ex-ante assumptions, MRV design
 - Source note: `sources/project-g1-pdd-2024-04-30.md`
 - URL: https://drive.google.com/file/d/1M7fWvmuZoAng7wf_STzsNnc1pYNeRXZL/view
 
 ### PROJECT-G1-CALC-2024-04-30
 - Tier: project calculation evidence
-- Title: VSD_MOC1-30-04-24.xlsx
-- Key use: registered ex-ante arithmetic, MAI, SOC workbook implementation, 169,725.08 tCO2e endpoint/15-year total
 - Source note: `sources/project-g1-calculation-workbook-2024-04-30.md`
-- Status note: SOC implementation flagged `CONFLICT_REQUIRES_RECONCILIATION` for calculator hard-coding
 - URL: https://docs.google.com/spreadsheets/d/1hFdcZ_7cNkb4RQ4leCQCUuQYOPQvuCt1/edit
 
 ### PROJECT-G1-VALIDATION-2024-05-01-V01
 - Tier: independent VVB validation evidence
 - Authority: VGreen KU Co., Ltd.
-- Validation opinion: CERTIFY
-- Key use: confirms project package/methodology; preserves MM 01/MM 02 boundary lessons and closure of validation findings
 - Source note: `sources/project-g1-validation-2024-05-01.md`
 - URL: https://drive.google.com/file/d/1WmnpkUJooPTS55p9yQmL8CgIwAiIUBoA/view
 
 ### PROJECT-G1-SDG-SAFEGUARDS-2024-04-23-V01
 - Tier: project SD/Safeguards evidence
-- Code: T-VER-P-F006-SDG
-- Key use: SDG 10/13/14 indicators and distinct annual/5-year monitoring cadences; annual satellite role for SDG 14
 - Source note: `sources/project-g1-sdg-safeguards-2024-04-23.md`
 - URL: https://drive.google.com/file/d/1BljOhXs0lrQ25KC_P3g9EJqbc5VEBtet/view
 
 ### PROJECT-G1-CERTIFICATE-2024-06-21
 - Tier: TGO registration certificate evidence
-- Authority: Thailand Greenhouse Gas Management Organization (TGO)
-- Key use: confirms Premium T-VER registration, 11,315 tCO2e/year ex-ante expectation and 2023-10-01 to 2038-09-30 crediting period
 - Source note: `sources/project-g1-certificate-2024-06-21.md`
-- Status warning: registration/ex-ante evidence, not actual issuance evidence
 - URL: https://drive.google.com/file/d/1BThFVV48V1fqh3Q-j4mo_q7qBn9spt_S/view
 
 ### PROJECT-G1-SHAPEFILE-2024-06-11
 - Tier: external project GIS evidence manifest
-- Title: Shapefile.zip
-- Key use: candidate authoritative geometry package associated with validated project boundary
 - Source note: `sources/project-g1-shapefile-manifest-2024-06-11.md`
-- Limitation: raw ZIP bytes/hash/CRS/feature schema not independently validated in this GitHub ingest
 - URL: https://drive.google.com/file/d/1bt6v-8fvTcf2vbX7FV1dSI5WgmnNbwLr/view
 
 ## Project primary evidence — MOC1 / Siam TC Group 1 (`PROJECT-MOC1-STC-*`)
 
-Identity warning: this is a separate project package from `PROJECT-G1-*`. See `projects/project-identity-map.md`.
+Identity warning: separate from `PROJECT-G1-*`. See `projects/project-identity-map.md`.
 
 ### PROJECT-MOC1-STC-PDD-2024-06-12-V03
 - Tier: registered project PDD / primary design evidence
-- Title: PDD_P_MOC1_V03(12-6-24).pdf
-- Key use: exact project identity, parties, plot IDs, methodology lock, boundary/MRV context
 - Source note: `sources/project-moc1-stc-pdd-2024-06-12.md`
 - URL: https://drive.google.com/file/d/1XMES0-VfH4SxDct0w9xaedOXnJBBZMRY/view
 
 ### PROJECT-MOC1-STC-CALC-2024-06-13
 - Tier: project calculation evidence
-- Title: excel-MOC1-predict.xlsx
-- Key use: 19-plot area data; 554.32-rai registered ex-ante arithmetic; 5,739.0597333 tCO2e/year; 86,085.896 tCO2e/15 years
 - Source note: `sources/project-moc1-stc-calculation-workbook-2024-06-13.md`
-- Conflict note: same workbook retains a 535.46-rai / 5,543.7958667-tCO2e/year legacy block, marked `SUPERSEDED_WITHIN_PROJECT_PACKAGE`
 - URL: https://docs.google.com/spreadsheets/d/1Y1QvyOdxdHt8KtMCQ2ooTpWtGexHIGKfwP/edit
 
 ### PROJECT-MOC1-STC-VALIDATION-2024-06-13-V02
 - Tier: independent VVB validation evidence
 - Authority: Bureau Veritas Certification (Thailand) Ltd.
-- Validated PDD: version 3 dated 2024-06-12
-- Validation opinion: CERTIFY_WITH_COMMENT
-- Key use: confirms 19 plots / 554.32 rai, methodology, 5,739 tCO2e/year, 15-year crediting period, 30-year maintenance context and MRV design
 - Source note: `sources/project-moc1-stc-validation-2024-06-13.md`
 - URL: https://drive.google.com/file/d/1xcuhNDmDN4ucMlC461SRmtLzboGiEkQY/view
 
 ### PROJECT-MOC1-STC-SDG-SAFEGUARDS-2024-01-30-V01
 - Tier: project SD/Safeguards evidence
-- Code: T-VER-P-F006-SDG
-- Key use: project start 2023-10-01, SDG 13 five-year growth indicator, SDG 14 ecosystem benefit and annual employment/income indicator
 - Source note: `sources/project-moc1-stc-sdg-safeguards-2024-01-30.md`
 - URL: https://drive.google.com/file/d/104dtgIuz-2B7c75eaWaQ7LqFEjh66CWM/view
 
 ### PROJECT-MOC1-STC-CERTIFICATE-2024-06-21
 - Tier: TGO registration certificate evidence
-- Authority: Thailand Greenhouse Gas Management Organization (TGO)
-- Key use: confirms Premium T-VER registration, 5,739 tCO2eq/year ex-ante expectation and 2023-10-01 to 2038-09-30 crediting period
 - Source note: `sources/project-moc1-stc-certificate-2024-06-21.md`
-- Status warning: registration/ex-ante evidence, not actual issuance evidence
 - URL: https://drive.google.com/file/d/1yF6GxGgxJxy0Uj3FSP6vsfthLW_qezG2/view
 
 ### PROJECT-MOC1-STC-SHAPEFILE-2024-06-14
 - Tier: external project GIS evidence manifest
-- Title: MOC1_shp-file.rar
-- Key use: candidate authoritative project geometry package
 - Source note: `sources/project-moc1-stc-shapefile-manifest-2024-06-14.md`
-- Limitation: archive not unpacked; CRS/feature count/geometry/hash not yet validated
 - URL: https://drive.google.com/file/d/11JQs9-HVHqEeegj5Dw8aoFHeqyQsh-4G/view
 
-## Project primary evidence — Standard T-VER Group 2
+## Project primary evidence — Standard T-VER Group 2 / STC
 
 ### STC-G2-DRIVE-MANIFEST-2026-09-04
 - Tier: immutable external-source provenance manifest
@@ -175,19 +142,17 @@ Identity warning: this is a separate project package from `PROJECT-G1-*`. See `p
 - Type: Validation Report
 - VVB: Bureau Veritas Certification (Thailand) Ltd.
 - Drive ID: `1hbG2IFQ6XvFyK8CAGA7H30TJLwNlaGa0`
-- Document date: 2024-06-27
 - Validated quantity: 846,521.70 tCO2eq / 10 years; 84,652.17 tCO2eq/year
 
 ### STC-G2-PDD-DRIVE
 - Type: PDD copy in Drive
 - PDF Drive ID: `1Al_NixiMve4fKB_r_PT0Zl-iDGbekC03`
 - DOCX Drive ID: `1_eJM7_V8Ve_2pEG-WON6z9R4aPBbj9yu`
-- Version identity vs the PDD cited by the Validation Report: `UNCONFIRMED`
+- Version identity vs validation-cited PDD: `UNCONFIRMED`
 
 ### STC-G2-CALC-XLSX
 - Type: project calculation workbook
 - Drive ID: `1D4fdK_rmTOQRGvZgyzI2_V-KmdYg-3fe`
-- Filename: `Cal_MOC2-Standard-V02-no_soil.xlsx`
 
 ### STC-G2-SAMPLE-PLOT-CSV
 - Type: sample plot coordinate table
@@ -197,6 +162,52 @@ Identity warning: this is a separate project package from `PROJECT-G1-*`. See `p
 ### STC-G2-SHP
 - Type: project/sample plot GIS archive
 - Drive ID: `1hfiaB0yPDNCvekB3PiQ1_BIieUmhhY7p`
+
+## Project primary evidence — Standard T-VER Group 2 / STC + VSD
+
+**Identity hard stop:** this is a separate registered project from the STC-only Group 2 above. Never merge their parameters.
+
+### STC-VSD-G2-DRIVE-MANIFEST-2026-09-04
+- Tier: immutable external-source provenance manifest
+- Raw manifest: `raw/project-g2-stc-vsd-drive-source-manifest-2026-09-04.md`
+- Folder ID: `1Wj-tjfkkmgYdiCbJnA7CoXwjgMqHJbGg`
+- Source note: [[stc-vsd-standard-tver-group2-drive]]
+
+### STC-VSD-G2-REG-CERT
+- Type: TGO Standard T-VER registration certificate
+- Drive ID: `1w_bQ3bByQVP5dGeceYloQt3G6G9rNzkT`
+- Date: 2024-08-28
+- Reported expected quantity: 63,689 tCO2eq/year
+- Crediting period: 2024-05-31 to 2034-05-30
+
+### STC-VSD-G2-VALIDATION
+- Type: Validation Report
+- VVB: VGreen KU
+- Drive ID: `1J7BJeempJe5wzFcolK9tPspd7_Lrjtqf`
+- Date: 2024-07-01
+- Findings: 4 Material Misstatements, 2 Misstatements, 4 Nonconformities; addressed/closed in revised PDD
+
+### STC-VSD-G2-PDD-PDF
+- Type: revised/validated PDD source copy
+- Drive ID: `167CqU0Ix6vUifwyu41diZ_cIRuMB7Gtk`
+- Project revision: 02 dated 2024-06-25
+- Key use: 22 plots, 6,775.53 rai, methodology lock, monitoring and ex-ante calculation
+
+### STC-VSD-G2-CALC-XLSX
+- Type: project calculation workbook
+- Drive ID: `1MM-rxPj3G48BblyRJ-pm6t6wqUU3A7j3`
+- Filename: `MOC2_VSD-25-06-24.xlsx`
+- Key values: baseline tree carbon 362,962.8144 tCO2eq; exact year-10 increment 636,899.82 tCO2eq; year-10 project tree carbon 999,862.6344 tCO2eq
+
+### STC-VSD-G2-COBENEFIT-PDF
+- Type: Co-benefit Report v2
+- Drive ID: `16ZfzKvdH9_kbs5h75REbwofyydMyx2W0`
+- Key use: green-area and biodiversity project claims
+
+### STC-VSD-G2-SHAPE
+- Type: external GIS archive
+- Drive ID: `1yYGg4BZrUq9Wny9b0vZmTm2vzM7qDFV_`
+- Limitation: archive bytes/hash/CRS/feature schema not independently validated in this ingest
 
 ## International reference
 
