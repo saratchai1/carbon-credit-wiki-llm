@@ -1,6 +1,6 @@
 ---
 source_id: PROJECT-G1-SHAPEFILE-2024-06-11
- title: Group 1 project shapefile package manifest
+title: Group 1 project shapefile package manifest
 authority: Project GIS evidence
 document_code: Shapefile.zip
 version: null
