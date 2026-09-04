@@ -6,6 +6,9 @@
 - [[architecture/wiki-architecture]] — raw/wiki/schema
 - [[architecture/ingest-workflow]] — ingest/query/lint
 
+## Projects
+- [[projects/group-1-mangrove-reforestation]] — Premium T-VER mangrove reforestation Group 1; registered ex-ante profile, boundary, MRV, sources and gaps
+
 ## Standard / Methodology
 - [[standards/current-standard]] — standard ที่ตั้งเป็น default และ version watch
 - [[standards/other-standards]] — มาตรฐานอื่น ห้ามปะปน
@@ -32,7 +35,7 @@
 ## Data
 - [[data/data-dictionary]] — field definitions
 - [[data/evidence-hierarchy]] — evidence tiers
-- `data/project-profile.yaml` — project configuration
+- `data/project-profile.yaml` — active Group 1 project configuration
 - `data/tree_measurements.csv` — template
 - `data/planting_cohorts.csv` — template
 - `data/activity_emissions.csv` — template
@@ -40,6 +43,12 @@
 ## Sources
 - [[sources/source-registry]]
 - [[sources/known-gaps]]
+- [[sources/project-g1-pdd-2024-04-30]]
+- [[sources/project-g1-calculation-workbook-2024-04-30]]
+- [[sources/project-g1-validation-2024-05-01]]
+- [[sources/project-g1-sdg-safeguards-2024-04-23]]
+- [[sources/project-g1-certificate-2024-06-21]]
+- [[sources/project-g1-shapefile-manifest-2024-06-11]]
 
 ## Templates
 - [[templates/project-profile]]
