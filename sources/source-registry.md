@@ -51,6 +51,55 @@ Checked: **2026-09-04**
 - Important: lists T-VER-P-METH-13-02 v1 and several forestry tools for revision in 2026
 - URL: https://tver.tgo.or.th/component/content/category/about-us?Itemid=101
 
+## Project primary evidence — Premium T-VER Mangrove Group 1
+
+### PROJECT-G1-PDD-2024-04-30-V06
+- Tier: registered project PDD / primary design evidence
+- Title: Project Design Document — Greenhouse Gas Reduction with Mangrove Reforestation in Thailand (Group 1)
+- PDD revision identified by Validation Report: 06 dated 2024-04-30
+- Key use: boundary, methodology lock, pools, ex-ante assumptions, MRV design
+- Source note: `sources/project-g1-pdd-2024-04-30.md`
+- URL: https://drive.google.com/file/d/1M7fWvmuZoAng7wf_STzsNnc1pYNeRXZL/view
+
+### PROJECT-G1-CALC-2024-04-30
+- Tier: project calculation evidence
+- Title: VSD_MOC1-30-04-24.xlsx
+- Key use: registered ex-ante arithmetic, MAI, SOC workbook implementation, 169,725.08 tCO2e endpoint/15-year total
+- Source note: `sources/project-g1-calculation-workbook-2024-04-30.md`
+- Status note: SOC implementation flagged `CONFLICT_REQUIRES_RECONCILIATION` for calculator hard-coding
+- URL: https://docs.google.com/spreadsheets/d/1hFdcZ_7cNkb4RQ4leCQCUuQYOPQvuCt1/edit
+
+### PROJECT-G1-VALIDATION-2024-05-01-V01
+- Tier: independent VVB validation evidence
+- Authority: VGreen KU Co., Ltd.
+- Validation opinion: CERTIFY
+- Key use: confirms project package/methodology; preserves MM 01/MM 02 boundary lessons and closure of validation findings
+- Source note: `sources/project-g1-validation-2024-05-01.md`
+- URL: https://drive.google.com/file/d/1WmnpkUJooPTS55p9yQmL8CgIwAiIUBoA/view
+
+### PROJECT-G1-SDG-SAFEGUARDS-2024-04-23-V01
+- Tier: project SD/Safeguards evidence
+- Code: T-VER-P-F006-SDG
+- Key use: SDG 10/13/14 indicators and distinct annual/5-year monitoring cadences; annual satellite role for SDG 14
+- Source note: `sources/project-g1-sdg-safeguards-2024-04-23.md`
+- URL: https://drive.google.com/file/d/1BljOhXs0lrQ25KC_P3g9EJqbc5VEBtet/view
+
+### PROJECT-G1-CERTIFICATE-2024-06-21
+- Tier: TGO registration certificate evidence
+- Authority: Thailand Greenhouse Gas Management Organization (TGO)
+- Key use: confirms Premium T-VER registration, 11,315 tCO2e/year ex-ante expectation and 2023-10-01 to 2038-09-30 crediting period
+- Source note: `sources/project-g1-certificate-2024-06-21.md`
+- Status warning: registration/ex-ante evidence, not actual issuance evidence
+- URL: https://drive.google.com/file/d/1BThFVV48V1fqh3Q-j4mo_q7qBn9spt_S/view
+
+### PROJECT-G1-SHAPEFILE-2024-06-11
+- Tier: external project GIS evidence manifest
+- Title: Shapefile.zip
+- Key use: candidate authoritative geometry package associated with validated project boundary
+- Source note: `sources/project-g1-shapefile-manifest-2024-06-11.md`
+- Limitation: raw ZIP bytes/hash/CRS/feature schema not independently validated in this GitHub ingest
+- URL: https://drive.google.com/file/d/1bt6v-8fvTcf2vbX7FV1dSI5WgmnNbwLr/view
+
 ## International reference
 
 ### VERRA-VM0033-V2.1
